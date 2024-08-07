@@ -1,0 +1,14 @@
+{
+	"Targets": [
+		{
+			"Name": "UnrealLearningKit",
+			"Path": "M:\\meginthevalley\\Documents\\Udemy Courses\\Unreal\\ObjectAssault\\UnrealLearningKit\\Source\\UnrealLearningKit.Target.cs",
+			"Type": "Game"
+		},
+		{
+			"Name": "UnrealLearningKitEditor",
+			"Path": "M:\\meginthevalley\\Documents\\Udemy Courses\\Unreal\\ObjectAssault\\UnrealLearningKit\\Source\\UnrealLearningKitEditor.Target.cs",
+			"Type": "Editor"
+		}
+	]
+}

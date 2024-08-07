@@ -1,0 +1,15 @@
+{
+	"version": 1,
+	"changelists": [
+		{
+			"guid": "00000000000000000000000000000000",
+			"description": "Default Uncontrolled Changelist",
+			"files": [
+				"M:/meginthevalley/Documents/Udemy Courses/Unreal/ObjectAssault/UnrealLearningKit/Content/Main.umap",
+				"M:/meginthevalley/Documents/Udemy Courses/Unreal/ObjectAssault/UnrealLearningKit/Content/MainGame/BP_ThirdPersonCharacter.uasset",
+				"M:/meginthevalley/Documents/Udemy Courses/Unreal/ObjectAssault/UnrealLearningKit/Content/SCK_Casual01/Blueprints/ThirdPersonCharacter.uasset",
+				"M:/meginthevalley/Documents/Udemy Courses/Unreal/ObjectAssault/UnrealLearningKit/Content/LearningKit_Games/Blueprints/GameFramework/BP_LearningKitGameMode.uasset"
+			]
+		}
+	]
+}

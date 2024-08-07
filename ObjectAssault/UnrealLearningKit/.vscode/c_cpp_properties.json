@@ -1,0 +1,21 @@
+{
+    "configurations": [
+        {
+            "name": "UnrealLearningKitEditor Editor Win64 Development (UnrealLearningKit)",
+            "compilerPath": "M:\\Visual Studio\\VC\\Tools\\MSVC\\14.40.33807\\bin\\HostX64\\x64\\cl.exe",
+            "cStandard": "c17",
+            "cppStandard": "c++17",
+            "intelliSenseMode": "msvc-x64",
+            "compileCommands": "M:\\meginthevalley\\Documents\\Udemy Courses\\Unreal\\ObjectAssault\\UnrealLearningKit\\.vscode\\compileCommands_UnrealLearningKit.json"
+        },
+        {
+            "name": "Win32",
+            "compilerPath": "M:\\Visual Studio\\VC\\Tools\\MSVC\\14.40.33807\\bin\\HostX64\\x64\\cl.exe",
+            "cStandard": "c17",
+            "cppStandard": "c++17",
+            "intelliSenseMode": "msvc-x64",
+            "compileCommands": "M:\\meginthevalley\\Documents\\Udemy Courses\\Unreal\\ObjectAssault\\UnrealLearningKit\\.vscode\\compileCommands_Default.json"
+        }
+    ],
+    "version": 4
+}

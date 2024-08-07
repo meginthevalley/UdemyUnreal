@@ -1,0 +1,8 @@
+{
+	"SourceFiles": [
+		"M:\\meginthevalley\\Documents\\Udemy Courses\\Unreal\\ObjectAssault\\UnrealLearningKit\\Source\\UnrealLearningKit\\UnrealLearningKit.Build.cs",
+		"M:\\meginthevalley\\Documents\\Udemy Courses\\Unreal\\ObjectAssault\\UnrealLearningKit\\Source\\UnrealLearningKit.Target.cs",
+		"M:\\meginthevalley\\Documents\\Udemy Courses\\Unreal\\ObjectAssault\\UnrealLearningKit\\Source\\UnrealLearningKitEditor.Target.cs"
+	],
+	"EngineVersion": "5.1.1"
+}

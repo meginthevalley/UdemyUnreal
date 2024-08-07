@@ -1,0 +1,15 @@
+{
+    "Version": "1.2",
+    "Data": {
+        "Source": "m:\\meginthevalley\\documents\\udemy courses\\unreal\\objectassault\\unreallearningkit\\source\\unreallearningkit\\movingplatform.cpp",
+        "ProvidedModule": "",
+        "PCH": "m:\\meginthevalley\\documents\\udemy courses\\unreal\\objectassault\\unreallearningkit\\intermediate\\build\\win64\\unreallearningkiteditor\\development\\engine\\sharedpch.engine.shadowerrors.inclorderunreal5_0.h.pch",
+        "Includes": [
+            "m:\\meginthevalley\\documents\\udemy courses\\unreal\\objectassault\\unreallearningkit\\intermediate\\build\\win64\\unrealeditor\\development\\unreallearningkit\\definitions.unreallearningkit.h",
+            "m:\\meginthevalley\\documents\\udemy courses\\unreal\\objectassault\\unreallearningkit\\source\\unreallearningkit\\movingplatform.h",
+            "m:\\meginthevalley\\documents\\udemy courses\\unreal\\objectassault\\unreallearningkit\\intermediate\\build\\win64\\unrealeditor\\inc\\unreallearningkit\\uht\\movingplatform.generated.h"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}
