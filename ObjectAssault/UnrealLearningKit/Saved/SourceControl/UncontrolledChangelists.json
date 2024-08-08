@@ -8,7 +8,10 @@
 				"M:/meginthevalley/Documents/Udemy Courses/Unreal/ObjectAssault/UnrealLearningKit/Content/Main.umap",
 				"M:/meginthevalley/Documents/Udemy Courses/Unreal/ObjectAssault/UnrealLearningKit/Content/MainGame/BP_ThirdPersonCharacter.uasset",
 				"M:/meginthevalley/Documents/Udemy Courses/Unreal/ObjectAssault/UnrealLearningKit/Content/SCK_Casual01/Blueprints/ThirdPersonCharacter.uasset",
-				"M:/meginthevalley/Documents/Udemy Courses/Unreal/ObjectAssault/UnrealLearningKit/Content/LearningKit_Games/Blueprints/GameFramework/BP_LearningKitGameMode.uasset"
+				"M:/meginthevalley/Documents/Udemy Courses/Unreal/ObjectAssault/UnrealLearningKit/Content/LearningKit_Games/Blueprints/GameFramework/BP_LearningKitGameMode.uasset",
+				"M:/meginthevalley/Documents/Udemy Courses/Unreal/ObjectAssault/UnrealLearningKit/Content/LearningKit_Games/Assets/VFX/Dependencies/Meshes/SM_WindTunnel.uasset",
+				"M:/meginthevalley/Documents/Udemy Courses/Unreal/ObjectAssault/UnrealLearningKit/Content/MainGame/BP_MovingPlatform.uasset",
+				"M:/meginthevalley/Documents/Udemy Courses/Unreal/ObjectAssault/UnrealLearningKit/Content/MainGame/BP_PushingCube.uasset"
 			]
 		}
 	]

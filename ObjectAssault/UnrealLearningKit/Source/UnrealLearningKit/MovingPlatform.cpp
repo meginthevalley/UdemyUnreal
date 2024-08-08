@@ -22,15 +22,10 @@ void AMovingPlatform::BeginPlay()
 
 	//Setting the X of MyVector to MyX
 	//MyVector.X = MyX;
+
+	//set start location
+	StartLocation = GetActorLocation();
 	
-	//Setting the Y of MyVector to MyY
-	//MyVector.Y = MyY;
-
-	//Setting the Y of MyVector to MyY
-	//MyVector.Z = MyZ;
-
-	//Add a new function for setting the location of the actor
-	//SetActorLocation(MyVector);
 }
 
 // Called every frame
@@ -40,27 +35,39 @@ void AMovingPlatform::Tick(float DeltaTime)
 	Super::Tick(DeltaTime);
 
 	//create a local variable
-	FVector LocalVector = FVector(2, 0, -0.1);
+	//FVector LocalVector = FVector(2, 0, -0.5);
 
-	//add the vectors
-	//MyVector = MyVector + LocalVector;
 
-	//Change Z location of MyVector
-	//MyVector.Z = MyVector.Z + 1;
 
-	//Change Y location of MyVector
-	//MyVector.Y = MyVector.Y + 1;
-
-	//Change Actor Location
-	//SetActorLocation(MyVector);
 
 	//Move platform
 		//Gets the current location of the actor
 	FVector CurrentLocation = GetActorLocation();
-		//change current location
-	CurrentLocation = CurrentLocation + LocalVector;
+		//change current location and multiply by DeltaTime to not make the game dependent on framerate
+	CurrentLocation = CurrentLocation + VelocityVector * DeltaTime;
 		//add vector to that location
 	SetActorLocation(CurrentLocation);
+	//Move platform back
+		//Check how far we've moved
+	float DistanceMoved = FVector::Dist(CurrentLocation, StartLocation);
+		//Reverse direction
+	if (DistanceMoved > MovedDistance)
+	{
+		
+		//get the normal of the velocity vector
+		FVector MoveDirection = VelocityVector.GetSafeNormal();
+		//add the start location and the normal of the velocity vector
+		StartLocation = StartLocation + MoveDirection * MovedDistance;
+		//set the actor location to the start location
+		SetActorLocation(StartLocation);
+		//make the platform go the other way
+		VelocityVector = -VelocityVector;
+	}
+	
+	
+	
+
+
 	
 
 		

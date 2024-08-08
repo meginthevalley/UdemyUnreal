@@ -30,24 +30,18 @@ public:
 	//add an integer variable
 	int32 MyInt = 99;
 
-	//to be able to see and edit in editor
-	//UPROPERTY(EditAnywhere)
+	//to be able to see and edit in editor. Also, creates a category in the editor
+	UPROPERTY(EditAnywhere, Category="Moving Platform")
 	//declaring a struct vector
-	//FVector MyVector = FVector(1, 2, 3);
+	FVector VelocityVector = FVector(100, 0, -10);
 
-	//to be able to see and edit in editor
-	//UPROPERTY(EditAnywhere)
-	//variable for setting X-value in the vector
-	//float MyX = -13860;
+	//to be able to see and edit in editor. Also, creates a category in the editor
+	UPROPERTY(EditAnywhere, Category="Moving Platform")
+	//create a float for the moved distance
+	float MovedDistance = 500;
 
-	//to be able to see and edit in editor
-	//UPROPERTY(EditAnywhere)
-	//variable for setting Y-value in the vector
-	//float MyY = -2520;
 
-	//to be able to see and edit in editor
-	//UPROPERTY(EditAnywhere)
-	//variable for getting Z-value in the vector
-	//float MyZ = 4070;
+	//variable for start location
+	FVector StartLocation;
 
 };
